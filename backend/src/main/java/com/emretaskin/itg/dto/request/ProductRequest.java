@@ -4,13 +4,14 @@ import com.emretaskin.itg.entity.Product;
 import lombok.Builder;
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.sql.Blob;
 
 @Data
 @Builder
 public class ProductRequest {
     private String name;
-    private Double price;
+    private BigDecimal price;
     private Integer quantity;
     private Blob image;
 

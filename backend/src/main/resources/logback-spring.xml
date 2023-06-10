@@ -2,7 +2,7 @@
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>project.log</file>
         <encoder>
-            <pattern>%d %p %c{1.} [%t] %m%n</pattern>
+            <pattern>%d %p %c{1} [%t] %m%n</pattern>
         </encoder>
     </appender>
 

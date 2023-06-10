@@ -3,6 +3,7 @@ package com.emretaskin.itg.dto.response;
 import lombok.Builder;
 import lombok.Data;
 
+import java.math.BigDecimal;
 import java.sql.Blob;
 
 @Data
@@ -10,7 +11,7 @@ import java.sql.Blob;
 public class ProductResponse {
     private Long id;
     private String name;
-    private double price;
+    private BigDecimal price;
     private int quantity;
     private Blob image;
 }

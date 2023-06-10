@@ -3,7 +3,6 @@ package com.emretaskin.itg.service.impl;
 import com.emretaskin.itg.entity.User;
 import com.emretaskin.itg.exception.ActivationException;
 import com.emretaskin.itg.repository.UserRepository;
-import com.emretaskin.itg.service.checker.interfaces.IsUserAlreadyExistByUsername;
 import com.emretaskin.itg.service.interfaces.UserService;
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -17,11 +16,9 @@ import java.util.Objects;
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
-    private final IsUserAlreadyExistByUsername isUserAlreadyExistByUsername;
     @Override
     @Transactional
     public void saveUser(User user) {
-        isUserAlreadyExistByUsername.check(user.getUsername());
         userRepository.save(user);
     }
 

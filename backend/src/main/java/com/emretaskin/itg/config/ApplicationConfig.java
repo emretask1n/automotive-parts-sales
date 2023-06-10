@@ -1,6 +1,11 @@
 package com.emretaskin.itg.config;
 
 import com.emretaskin.itg.repository.UserRepository;
+import io.swagger.v3.oas.models.Components;
+import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Info;
+import io.swagger.v3.oas.models.security.SecurityRequirement;
+import io.swagger.v3.oas.models.security.SecurityScheme;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -40,6 +45,20 @@ public class ApplicationConfig {
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
+    }
+
+    @Bean
+    public OpenAPI baseOpenAPI(){
+        SecurityScheme jwtScheme = new SecurityScheme()
+                .type(SecurityScheme.Type.HTTP)
+                .scheme("bearer")
+                .bearerFormat("JWT");
+
+        return new OpenAPI()
+                .components(new Components().addSecuritySchemes("jwt", jwtScheme))
+                .info(new Info().title("Mini Automotive Parts Sales E-Commerce Project")
+                        .version("1.0.0")
+                        .description("OpenAPI documentation for a project expected to be carried out within techcareer.net.")).addSecurityItem(new SecurityRequirement().addList("jwt"));
     }
 
 }

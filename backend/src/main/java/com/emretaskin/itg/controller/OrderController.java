@@ -4,6 +4,7 @@ import com.emretaskin.itg.dto.request.OrderRequest;
 import com.emretaskin.itg.entity.Order;
 import com.emretaskin.itg.entity.User;
 import com.emretaskin.itg.service.interfaces.OrderService;
+import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class OrderController {
     private final OrderService orderService;
+    @Operation(summary = "Place an order")
     @PostMapping
     public ResponseEntity<Order> placeOrder(Authentication authentication, @RequestBody OrderRequest orderRequest) {
         User userPrincipal = (User) authentication.getPrincipal();
@@ -28,3 +30,4 @@ public class OrderController {
     }
 
 }
+

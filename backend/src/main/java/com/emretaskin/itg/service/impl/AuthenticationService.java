@@ -6,7 +6,6 @@ import com.emretaskin.itg.dto.response.LoginResponse;
 import com.emretaskin.itg.dto.response.RegisterResponse;
 import com.emretaskin.itg.entity.User;
 import com.emretaskin.itg.exception.ActivationException;
-import com.emretaskin.itg.service.checker.interfaces.IsUserAlreadyExistByUsername;
 import com.emretaskin.itg.service.interfaces.UserLogService;
 import com.emretaskin.itg.service.interfaces.UserService;
 import lombok.RequiredArgsConstructor;

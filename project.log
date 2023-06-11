@@ -17892,3 +17892,529 @@ Unconditional classes:
 2023-06-11 01:56:30,567 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
 2023-06-11 01:57:00,567 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
 2023-06-11 01:57:00,567 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 01:57:30,568 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 01:57:30,568 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 01:58:00,571 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 01:58:00,571 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 01:58:30,581 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 01:58:30,581 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 01:59:00,593 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 01:59:00,593 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 01:59:30,600 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 01:59:30,600 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 01:59:51,260 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69806964: (connection has passed maxLifetime)
+2023-06-11 01:59:51,273 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3552cbc5
+2023-06-11 01:59:51,507 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@558e4f1c: (connection has passed maxLifetime)
+2023-06-11 01:59:51,516 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@746fc1fe
+2023-06-11 01:59:57,296 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@61d11f13: (connection has passed maxLifetime)
+2023-06-11 01:59:57,305 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d85ce6d
+2023-06-11 02:00:00,601 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:00:00,601 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:00:04,490 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@507a58d0: (connection has passed maxLifetime)
+2023-06-11 02:00:04,500 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ea77b9b
+2023-06-11 02:00:06,862 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@20ec1528: (connection has passed maxLifetime)
+2023-06-11 02:00:06,872 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f9a71a0
+2023-06-11 02:00:13,827 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33460eb5: (connection has passed maxLifetime)
+2023-06-11 02:00:13,844 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16f5b60f
+2023-06-11 02:00:15,614 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fee05c: (connection has passed maxLifetime)
+2023-06-11 02:00:15,625 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57c8bc34
+2023-06-11 02:00:20,259 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@74b46a91: (connection has passed maxLifetime)
+2023-06-11 02:00:20,268 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66d54c43
+2023-06-11 02:00:22,381 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67b8ff06: (connection has passed maxLifetime)
+2023-06-11 02:00:22,391 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37e7437b
+2023-06-11 02:00:29,209 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b09d1b: (connection has passed maxLifetime)
+2023-06-11 02:00:29,219 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@702ad8a6
+2023-06-11 02:00:30,608 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:00:30,608 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:01:00,610 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:01:00,610 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:01:30,619 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:01:30,619 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:02:00,623 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:02:00,623 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:02:30,639 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:02:30,639 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:03:00,651 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:03:00,651 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:03:30,663 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:03:30,663 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:04:00,665 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:04:00,665 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:04:30,668 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:04:30,668 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:05:00,679 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:05:00,679 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:05:30,683 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:05:30,683 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:06:00,696 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:06:00,696 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:06:30,709 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:06:30,709 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:07:00,712 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:07:00,712 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:07:30,718 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:07:30,718 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:08:00,727 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:08:00,727 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:08:30,740 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:08:30,740 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:09:00,747 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:09:00,747 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:09:30,759 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:09:30,759 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:10:00,771 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:10:00,771 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:10:30,781 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:10:30,781 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:11:00,790 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:11:00,790 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:11:30,794 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:11:30,794 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:12:00,806 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:12:00,806 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:12:30,809 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:12:30,809 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:13:00,821 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:13:00,821 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:13:30,837 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:13:30,837 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:14:00,845 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:14:00,845 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:14:30,854 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:14:30,854 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:15:00,856 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:15:00,856 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:15:30,857 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:15:30,857 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:16:00,862 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:16:00,862 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:16:30,873 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:16:30,873 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:17:00,886 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:17:00,886 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:17:30,901 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:17:30,901 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:18:00,910 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:18:00,910 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:18:30,924 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:18:30,924 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:19:00,930 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:19:00,930 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:19:30,937 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:19:30,937 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:20:00,959 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:20:00,959 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:20:30,964 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:20:30,964 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:21:00,966 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:21:00,966 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:21:30,980 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:21:30,980 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:22:00,990 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:22:00,990 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:22:31,001 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:22:31,001 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:23:01,011 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:23:01,011 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:23:31,019 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:23:31,019 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:24:01,032 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:24:01,032 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:24:31,039 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:24:31,039 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:25:01,041 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:25:01,041 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:25:31,048 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:25:31,048 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:26:01,056 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:26:01,056 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:26:31,061 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:26:31,061 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:27:01,073 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:27:01,073 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:27:31,085 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:27:31,085 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:28:01,098 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:28:01,098 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:28:31,105 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:28:31,105 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:29:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:29:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:29:27,664 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3d85ce6d: (connection has passed maxLifetime)
+2023-06-11 02:29:27,679 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77c319ed
+2023-06-11 02:29:31,113 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:29:31,113 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:29:35,838 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3552cbc5: (connection has passed maxLifetime)
+2023-06-11 02:29:35,848 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49233f
+2023-06-11 02:29:44,177 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ea77b9b: (connection has passed maxLifetime)
+2023-06-11 02:29:44,187 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c3879f
+2023-06-11 02:29:47,249 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@746fc1fe: (connection has passed maxLifetime)
+2023-06-11 02:29:47,258 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46fe8da4
+2023-06-11 02:29:52,485 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57c8bc34: (connection has passed maxLifetime)
+2023-06-11 02:29:52,494 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e40795d
+2023-06-11 02:29:53,798 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37e7437b: (connection has passed maxLifetime)
+2023-06-11 02:29:53,807 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f7d7366
+2023-06-11 02:29:55,430 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f9a71a0: (connection has passed maxLifetime)
+2023-06-11 02:29:55,439 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e286e72
+2023-06-11 02:30:01,122 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:30:01,122 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:30:02,096 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@66d54c43: (connection has passed maxLifetime)
+2023-06-11 02:30:02,105 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4aa72206
+2023-06-11 02:30:11,228 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16f5b60f: (connection has passed maxLifetime)
+2023-06-11 02:30:11,238 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45d2927d
+2023-06-11 02:30:19,734 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@702ad8a6: (connection has passed maxLifetime)
+2023-06-11 02:30:19,743 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7642bb18
+2023-06-11 02:30:31,124 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:30:31,124 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:31:01,135 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:31:01,135 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:31:31,143 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:31:31,143 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:32:01,147 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:32:01,147 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:32:31,153 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:32:31,153 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:33:01,160 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:33:01,160 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:33:31,164 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:33:31,164 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:34:01,175 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:34:01,175 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:34:31,178 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:34:31,178 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:35:01,189 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:35:01,189 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:35:31,200 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:35:31,200 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:36:01,210 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:36:01,210 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:36:31,225 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:36:31,226 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:37:01,230 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:37:01,230 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:37:31,240 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:37:31,240 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:38:01,250 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:38:01,250 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:38:31,253 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:38:31,253 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:39:01,256 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:39:01,256 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:39:31,257 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:39:31,257 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:40:01,267 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:40:01,267 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:40:31,278 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:40:31,278 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:41:01,293 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:41:01,293 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:41:31,299 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:41:31,299 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:42:01,306 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:42:01,306 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:42:31,315 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:42:31,315 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:43:01,326 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:43:01,327 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:43:31,329 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:43:31,329 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:44:01,343 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:44:01,343 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:44:31,353 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:44:31,353 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:45:01,365 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:45:01,365 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:45:31,370 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:45:31,370 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:46:01,375 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:46:01,375 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:46:31,385 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:46:31,385 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:47:01,396 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:47:01,396 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:47:31,400 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:47:31,400 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:48:01,400 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:48:01,400 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:48:31,406 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:48:31,406 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:49:01,413 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:49:01,413 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:49:31,414 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:49:31,414 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:50:01,422 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:50:01,422 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:50:31,425 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:50:31,425 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:51:01,430 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:51:01,430 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:51:31,445 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:51:31,445 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:52:01,456 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:52:01,456 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:52:31,457 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:52:31,457 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:53:01,470 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:53:01,470 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:53:31,476 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:53:31,476 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:54:01,488 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:54:01,488 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:54:31,499 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:54:31,499 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:55:01,508 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:55:01,508 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:55:31,521 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:55:31,521 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:56:01,534 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:56:01,534 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:56:31,541 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:56:31,541 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:57:01,555 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:57:01,555 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:57:31,557 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:57:31,557 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:58:01,561 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:58:01,561 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:58:31,566 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:58:31,566 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:58:57,419 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@77c319ed: (connection has passed maxLifetime)
+2023-06-11 02:58:57,435 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@773977b2
+2023-06-11 02:59:01,571 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:59:01,571 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:59:31,583 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 02:59:31,583 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 02:59:32,332 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c3879f: (connection has passed maxLifetime)
+2023-06-11 02:59:32,343 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@b7bb8fe
+2023-06-11 02:59:33,469 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@49233f: (connection has passed maxLifetime)
+2023-06-11 02:59:33,478 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a46b2c5
+2023-06-11 02:59:34,234 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2e286e72: (connection has passed maxLifetime)
+2023-06-11 02:59:34,243 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b46d939
+2023-06-11 02:59:39,545 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@46fe8da4: (connection has passed maxLifetime)
+2023-06-11 02:59:39,558 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@152e8c11
+2023-06-11 02:59:42,134 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f7d7366: (connection has passed maxLifetime)
+2023-06-11 02:59:42,143 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5413862a
+2023-06-11 02:59:44,485 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@45d2927d: (connection has passed maxLifetime)
+2023-06-11 02:59:44,497 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@650db6a4
+2023-06-11 02:59:45,797 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e40795d: (connection has passed maxLifetime)
+2023-06-11 02:59:45,806 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@343c7965
+2023-06-11 03:00:00,699 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4aa72206: (connection has passed maxLifetime)
+2023-06-11 03:00:00,712 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6e8f1dda
+2023-06-11 03:00:01,540 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7642bb18: (connection has passed maxLifetime)
+2023-06-11 03:00:01,550 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2fb217e1
+2023-06-11 03:00:01,586 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 03:00:01,586 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 03:00:31,600 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 03:00:31,600 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 03:01:01,614 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 03:01:01,618 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 03:01:31,625 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 03:01:31,625 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 03:02:01,637 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 03:02:01,637 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 12:04:09,489 WARN c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=9h2m7s867ms244µs500ns).
+2023-06-11 12:04:09,490 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 12:04:09,490 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,491 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 12:04:09,635 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7be9b98d
+2023-06-11 12:04:09,668 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ad4b3b6
+2023-06-11 12:04:09,698 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ba42ac7
+2023-06-11 12:04:09,707 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@773977b2: (connection has passed maxLifetime)
+2023-06-11 12:04:09,709 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7b46d939: (connection has passed maxLifetime)
+2023-06-11 12:04:09,711 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b7bb8fe: (connection has passed maxLifetime)
+2023-06-11 12:04:09,712 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@650db6a4: (connection has passed maxLifetime)
+2023-06-11 12:04:09,715 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a46b2c5: (connection has passed maxLifetime)
+2023-06-11 12:04:09,722 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@343c7965: (connection has passed maxLifetime)
+2023-06-11 12:04:09,728 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5afb4cf9
+2023-06-11 12:04:09,728 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5413862a: (connection has passed maxLifetime)
+2023-06-11 12:04:09,730 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6e8f1dda: (connection has passed maxLifetime)
+2023-06-11 12:04:09,731 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2fb217e1: (connection has passed maxLifetime)
+2023-06-11 12:04:09,733 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@152e8c11: (connection has passed maxLifetime)
+2023-06-11 12:04:24,378 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection adder] HikariPool-3 - Failed to create/setup connection: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2023-06-11 12:04:24,378 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Cannot acquire connection from data source
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:175)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:446)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:239)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:188)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:733)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:62)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:150)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:166)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:379)
+	at com.mysql.cj.protocol.a.NativeAuthenticationProvider.connect(NativeAuthenticationProvider.java:206)
+	at com.mysql.cj.protocol.a.NativeProtocol.connect(NativeProtocol.java:1430)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:134)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:945)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:815)
+	... 13 common frames omitted
+Caused by: java.net.SocketException: Kurulan bir bağlantı, ana makinenizdeki yazılım tarafından iptal edildi
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:325)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:160)
+	at java.base/sun.security.ssl.SSLTransport.decode(SSLTransport.java:111)
+	at java.base/sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1505)
+	at java.base/sun.security.ssl.SSLSocketImpl.readHandshakeRecord(SSLSocketImpl.java:1420)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:455)
+	at java.base/sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:426)
+	at com.mysql.cj.protocol.ExportControlled.performTlsHandshake(ExportControlled.java:347)
+	at com.mysql.cj.protocol.StandardSocketFactory.performTlsHandshake(StandardSocketFactory.java:191)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.performTlsHandshake(NativeSocketConnection.java:101)
+	at com.mysql.cj.protocol.a.NativeProtocol.negotiateSSLConnection(NativeProtocol.java:370)
+	... 18 common frames omitted
+2023-06-11 12:04:24,467 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55762e08
+2023-06-11 12:04:24,498 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ad7853f
+2023-06-11 12:04:24,532 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@69de5333
+2023-06-11 12:04:24,561 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68706faf
+2023-06-11 12:04:24,593 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fab3f9f
+2023-06-11 12:04:24,626 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d558009
+2023-06-11 12:04:39,494 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 12:04:39,494 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:27:01,106 WARN c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h22m21s628ms509µs900ns).
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,106 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Add connection elided, waiting=0, adders pending/running=1
+2023-06-11 13:27:01,143 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ba42ac7: (connection has passed maxLifetime)
+2023-06-11 13:27:01,151 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ad4b3b6: (connection has passed maxLifetime)
+2023-06-11 13:27:01,151 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5afb4cf9: (connection has passed maxLifetime)
+2023-06-11 13:27:01,151 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fab3f9f: (connection has passed maxLifetime)
+2023-06-11 13:27:01,151 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68706faf: (connection has passed maxLifetime)
+2023-06-11 13:27:01,159 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7be9b98d: (connection has passed maxLifetime)
+2023-06-11 13:27:01,159 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55762e08: (connection has passed maxLifetime)
+2023-06-11 13:27:01,159 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d558009: (connection has passed maxLifetime)
+2023-06-11 13:27:01,159 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ad7853f: (connection has passed maxLifetime)
+2023-06-11 13:27:01,159 DEBUG c.z.h.p.PoolBase [HikariPool-3 connection closer] HikariPool-3 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@69de5333: (connection has passed maxLifetime)
+2023-06-11 13:27:01,183 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@238e9858
+2023-06-11 13:27:01,215 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62b39263
+2023-06-11 13:27:01,255 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@531bb44f
+2023-06-11 13:27:01,295 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29c6d2c
+2023-06-11 13:27:01,327 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d2c4608
+2023-06-11 13:27:01,359 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d21309
+2023-06-11 13:27:01,389 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33ff65c7
+2023-06-11 13:27:01,424 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@750be137
+2023-06-11 13:27:01,448 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28370b3
+2023-06-11 13:27:01,475 DEBUG c.z.h.p.HikariPool [HikariPool-3 connection adder] HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@744083cb
+2023-06-11 13:27:31,104 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:27:31,108 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:28:01,112 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:28:01,112 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:28:31,123 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:28:31,123 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:29:01,127 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:29:01,127 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:29:31,129 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:29:31,129 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:30:01,136 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:30:01,136 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:30:31,142 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:30:31,142 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:31:01,144 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:31:01,144 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:31:31,156 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:31:31,156 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:32:01,171 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:32:01,171 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:32:31,172 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:32:31,172 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:33:01,175 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:33:01,175 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:33:31,190 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:33:31,190 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:34:01,202 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:34:01,202 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:34:31,214 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:34:31,214 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:35:01,219 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:35:01,221 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:35:31,233 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:35:31,233 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:36:01,240 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:36:01,240 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:36:31,248 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:36:31,248 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:37:01,260 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:37:01,260 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:37:31,264 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:37:31,264 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:38:01,270 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:38:01,270 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:38:31,276 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:38:31,276 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:39:01,288 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:39:01,288 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:39:31,300 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:39:31,300 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:40:01,312 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:40:01,312 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:40:31,315 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:40:31,315 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:41:01,321 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:41:01,321 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:41:31,327 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:41:31,327 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:42:01,339 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:42:01,339 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:42:31,354 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:42:31,354 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:43:01,364 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:43:01,364 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:43:31,382 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:43:31,382 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:44:01,397 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:44:01,397 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:44:31,403 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:44:31,403 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:45:01,410 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:45:01,410 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:45:31,415 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:45:31,415 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:46:01,417 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:46:01,417 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:46:31,432 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:46:31,433 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-11 13:47:01,449 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-11 13:47:01,449 DEBUG c.z.h.p.HikariPool [HikariPool-3 housekeeper] HikariPool-3 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).

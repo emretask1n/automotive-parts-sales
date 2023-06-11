@@ -21,7 +21,7 @@ The backend of the project is developed using Java and the Spring Boot framework
 
 The project's backend includes a set of RESTful APIs, which are documented using the OpenAPI 3 specification. The API documentation can be accessed by running the application and visiting the following URL in a web browser:
 
-http://localhost:8086/swagger-ui.html
+http://localhost:8086/swagger-ui/index.html
 
 The Swagger UI provides an interactive interface to explore and test the available API endpoints.
 

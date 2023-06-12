@@ -5,7 +5,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - 8087:8087
+      - 8086:8086
     depends_on:
       - db
     environment:
@@ -22,7 +22,7 @@ services:
   db:
     image: mysql:latest
     ports:
-      - 3307:3307
+      - 3307:3306
     environment:
       - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
       - MYSQL_DATABASE=itg-db

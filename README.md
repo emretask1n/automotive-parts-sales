@@ -65,7 +65,7 @@ To run the application, follow these steps:
    ```shell
    docker-compose up -d
    ```
-The backend application will be accessible on `http://localhost:8087` from within the Docker container.
+The backend application will be accessible on `http://localhost:8086` from within the Docker container.
 
 ## Disclaimer
 

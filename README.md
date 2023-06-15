@@ -29,8 +29,6 @@ The Swagger UI provides an interactive interface to explore and test the availab
 
 The project follows a modular structure, with separate packages for different concerns. The main packages in the project are as follows:
 
-The project follows a modular structure, with separate packages for different concerns. The main packages in the project are as follows:
-
 - `com.emretaskin.itg.config` - Contains configuration classes for Spring Boot and other components.
 - `com.emretaskin.itg.constants` - Defines constants used throughout the application.
 - `com.emretaskin.itg.controller` - Contains the controllers for handling HTTP requests and defining the API endpoints.

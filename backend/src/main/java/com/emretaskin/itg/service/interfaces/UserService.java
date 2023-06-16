@@ -21,4 +21,6 @@ public interface UserService {
     void incrementFailedLoginAttempts(String username);
 
     User getUserById(Long id);
+
+    boolean existsByEmail(String email);
 }

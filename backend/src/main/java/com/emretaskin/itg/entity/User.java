@@ -2,6 +2,7 @@ package com.emretaskin.itg.entity;
 
 import com.emretaskin.itg.constants.Constants;
 import com.emretaskin.itg.enums.UserRole;
+import com.emretaskin.itg.validation.UniqueEmail;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -38,9 +39,10 @@ public class User implements UserDetails {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
-    private UserRole role;
+    private UserRole role = UserRole.USER;
 
     @Column(nullable = false)
+    @UniqueEmail
     private String email;
 
     @Column(nullable = false)

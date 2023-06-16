@@ -40,6 +40,7 @@ The project follows a modular structure, with separate packages for different co
 - `com.emretaskin.itg.repository` - Provides the data access layer for interacting with the database.
 - `com.emretaskin.itg.security` - Implements security-related configurations and authentication/authorization logic.
 - `com.emretaskin.itg.service` - Implements the business logic and handles data operations.
+- `com.emretaskin.itg.validation` - Contains validation-related classes and annotations used for data validation in the application.
 
 ## Running the Application
 

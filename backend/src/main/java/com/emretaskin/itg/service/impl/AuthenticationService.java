@@ -66,6 +66,8 @@ public class AuthenticationService {
             throw ex;
         }
 
+        userService.resetFailedLoginAttempts(loginRequest.getUsername());
+
         var user = userService.findUserByUsername(loginRequest.getUsername());
 
         if (!user.isActivated()) {

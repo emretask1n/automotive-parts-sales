@@ -37,4 +37,13 @@ public class Order {
 
     @Column(nullable = false)
     private String shippingAddress;
+
+    public Order(User user, LocalDateTime orderDate, List<OrderItem> orderItems, OrderStatus orderStatus, String shippingAddress) {
+        this.user = user;
+        this.orderDate = orderDate;
+        this.orderItems = orderItems;
+        this.orderStatus = orderStatus;
+        this.shippingAddress = shippingAddress;
+    }
+
 }

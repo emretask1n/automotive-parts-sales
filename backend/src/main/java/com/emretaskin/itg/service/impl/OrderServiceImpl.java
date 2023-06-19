@@ -7,7 +7,9 @@ import com.emretaskin.itg.entity.Order;
 import com.emretaskin.itg.entity.OrderItem;
 import com.emretaskin.itg.entity.User;
 import com.emretaskin.itg.enums.OrderStatus;
+import com.emretaskin.itg.repository.OrderRepository;
 import com.emretaskin.itg.service.interfaces.CartItemService;
+import com.emretaskin.itg.service.interfaces.OrderItemService;
 import com.emretaskin.itg.service.interfaces.OrderService;
 import com.emretaskin.itg.service.interfaces.UserService;
 import lombok.RequiredArgsConstructor;
@@ -20,9 +22,11 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class OrderServiceImpl implements OrderService {
+    private final OrderRepository orderRepository;
     private final CartItemService cartItemService;
     private final UserService userService;
     private final EmailService emailService;
+    private final OrderItemService orderItemService;
 
     @Override
     public Order placeOrder(Long userId, OrderRequest orderRequest) {
@@ -31,21 +35,19 @@ public class OrderServiceImpl implements OrderService {
 
         List<CartItem> cartItems = cartItemService.findCartItemsByUserId(userId);
 
-
         Order order = Order.builder()
                 .user(user)
                 .orderDate(orderDate)
                 .shippingAddress(orderRequest.getShippingAddress())
                 .build();
 
+        orderRepository.save(order);
+
         List<OrderItem> orderItems = cartItems.stream()
-                .map(cartItem -> {
-                    OrderItem orderItem = new OrderItem();
-                    orderItem.setOrder(order);
-                    orderItem.setProduct(cartItem.getProduct());
-                    orderItem.setQuantity(cartItem.getQuantity());
-                    return orderItem;
-                }).toList();
+                .map(cartItem -> new OrderItem(order, cartItem.getProduct(), cartItem.getQuantity()))
+                .toList();
+
+        orderItemService.saveOrderItemsToOrder(orderItems);
 
         cartItemService.clearCartItemsByUserId(userId);
 

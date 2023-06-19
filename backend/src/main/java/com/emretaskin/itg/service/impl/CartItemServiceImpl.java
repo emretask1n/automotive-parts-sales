@@ -32,20 +32,19 @@ public class CartItemServiceImpl implements CartItemService {
         User user = userService.getUserById(userId);
         Product product = productService.getProductById(productId);
 
-        // Check if the cart item already exists for the user and product
         CartItem existingCartItem = cartItemRepository.findByUserAndProduct(user, product);
 
         if (existingCartItem != null) {
-            // Update the quantity of the existing cart item
             existingCartItem.setQuantity(existingCartItem.getQuantity() + quantity);
         } else {
-            // Create a new cart item
-            CartItem newCartItem = new CartItem();
-            newCartItem.setUser(user);
-            newCartItem.setProduct(product);
-            newCartItem.setQuantity(quantity);
+            CartItem newCartItem = CartItem.builder()
+                    .user(user)
+                    .product(product)
+                    .quantity(quantity)
+                            .build();
             cartItemRepository.save(newCartItem);
         }
+        productService.decreaseProductQuantity(productId, quantity);
     }
 
     @Override

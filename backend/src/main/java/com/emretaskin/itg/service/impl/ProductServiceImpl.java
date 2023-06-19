@@ -12,6 +12,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -95,4 +96,24 @@ public class ProductServiceImpl implements ProductService {
         return productRepository.findById(productId)
                 .orElseThrow(() -> new EntityNotFoundException("Product not found with ID: " + productId));
     }
+
+    @Override
+    public List<ProductResponse> getProductsByPriceRange(BigDecimal minPrice, BigDecimal maxPrice) {
+        return getProductResponses(productRepository.findByPriceBetween(minPrice, maxPrice));
+    }
+
+    @Override
+    public void decreaseProductQuantity(Long productId, int quantity) {
+        Product product = getProductById(productId);
+        int currentQuantity = product.getQuantity();
+        int updatedQuantity = currentQuantity - quantity;
+
+        if (updatedQuantity < 0) {
+            throw new IllegalArgumentException("Not enough quantity available for the product.");
+        }
+
+        product.setQuantity(updatedQuantity);
+        productRepository.save(product);
+    }
+
 }

@@ -5,6 +5,7 @@ import com.emretaskin.itg.dto.response.ProductResponse;
 import com.emretaskin.itg.entity.Product;
 import com.emretaskin.itg.enums.SortType;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public interface ProductService {
@@ -19,4 +20,8 @@ public interface ProductService {
     ProductResponse saveProduct(ProductRequest productRequest);
 
     Product getProductById(Long id);
+
+    List<ProductResponse> getProductsByPriceRange(BigDecimal minPrice, BigDecimal maxPrice);
+
+    void decreaseProductQuantity(Long productId, int quantity);
 }

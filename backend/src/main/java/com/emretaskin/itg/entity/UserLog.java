@@ -28,4 +28,10 @@ public class UserLog {
 
     @Column(nullable = false)
     private String logMessage;
+
+    public UserLog(User user, LocalDateTime logDate, String logMessage) {
+        this.user = user;
+        this.logDate = logDate;
+        this.logMessage = logMessage;
+    }
 }

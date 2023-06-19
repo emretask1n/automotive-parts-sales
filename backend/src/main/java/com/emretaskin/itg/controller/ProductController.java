@@ -25,7 +25,7 @@ public class ProductController {
     }
 
     @Operation(summary = "Sort all products")
-    @GetMapping("/filter")
+    @GetMapping("/sort")
     public ResponseEntity<List<ProductResponse>> sortAllProducts(@RequestParam("sort") String sortType) {
         return ResponseEntity.ok(productService.sortAllProducts(SortType.valueOf(sortType)));
     }

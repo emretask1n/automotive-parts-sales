@@ -33,4 +33,11 @@ public class Product {
     @Column(name = "image", columnDefinition = "BLOB")
     private Blob image;
 
+    public Product(String name, BigDecimal price, int quantity, Blob image) {
+        this.name = name;
+        this.price = price;
+        this.quantity = quantity;
+        this.image = image;
+    }
+
 }

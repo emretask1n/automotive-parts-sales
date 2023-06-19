@@ -7,6 +7,7 @@ import com.emretaskin.itg.service.interfaces.UserLogService;
 import com.emretaskin.itg.service.interfaces.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 
@@ -16,6 +17,7 @@ public class UserLogServiceImpl implements UserLogService {
     private final UserService userService;
     private final UserLogRepository userLogRepository;
     @Override
+    @Transactional
     public void logFailedLoginAttempt(String username) {
         User user = userService.findUserByUsername(username);
 

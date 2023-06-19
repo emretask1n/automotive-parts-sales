@@ -16,6 +16,7 @@ import java.util.Objects;
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
+    private final EmailService emailService;
     @Override
     @Transactional
     public void saveUser(User user) {
@@ -67,6 +68,18 @@ public class UserServiceImpl implements UserService {
     public User getUserById(Long id) {
         return userRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("User not found"));
+    }
+
+    @Override
+    public boolean existsByEmail(String email) {
+        return userRepository.existsByEmail(email);
+    }
+
+    @Override
+    public void sendEmailToAdmin(Long userId, String subject, String body) {
+        User user = getUserById(userId);
+        subject = "From user with ID " + userId + " " + subject;
+        emailService.sendEmailToAdmin(subject, body);
     }
 
 }

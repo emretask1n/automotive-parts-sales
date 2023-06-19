@@ -9,6 +9,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @RestController
@@ -46,6 +47,13 @@ public class ProductController {
     @PostMapping
     public ResponseEntity<ProductResponse> saveProduct(@RequestBody ProductRequest productRequest) {
         return ResponseEntity.ok(productService.saveProduct(productRequest));
+    }
+
+    @Operation(summary = "Filter products by price range")
+    @GetMapping("/filter")
+    public ResponseEntity<List<ProductResponse>> filterProductsByPriceRange(@RequestParam("minPrice") BigDecimal minPrice, @RequestParam("maxPrice") BigDecimal maxPrice) {
+        List<ProductResponse> filteredProducts = productService.getProductsByPriceRange(minPrice, maxPrice);
+        return ResponseEntity.ok(filteredProducts);
     }
 }
 

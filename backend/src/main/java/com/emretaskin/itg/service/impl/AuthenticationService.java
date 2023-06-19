@@ -5,6 +5,7 @@ import com.emretaskin.itg.dto.request.RegisterRequest;
 import com.emretaskin.itg.dto.response.LoginResponse;
 import com.emretaskin.itg.dto.response.RegisterResponse;
 import com.emretaskin.itg.entity.User;
+import com.emretaskin.itg.enums.UserRole;
 import com.emretaskin.itg.exception.ActivationException;
 import com.emretaskin.itg.service.interfaces.UserLogService;
 import com.emretaskin.itg.service.interfaces.UserService;
@@ -37,11 +38,12 @@ public class AuthenticationService {
                 .password(passwordEncoder.encode(registerRequest.getPassword()))
                 .email(email)
                 .activationCode(activationCode)
+                .role(UserRole.USER)
                 .build();
 
         userService.saveUser(newUser);
 
-        String activationLink = "http://localhost:8086/api/v1/activation/activate?code=" + activationCode;
+        String activationLink = "http://localhost:8086/api/v1/users/activate?code=" + activationCode;
 
         String emailSubject = "Account Activation";
         String emailBody = "Please click the following link to activate your account: " + activationLink;
@@ -66,13 +68,15 @@ public class AuthenticationService {
             throw ex;
         }
 
+        userService.resetFailedLoginAttempts(loginRequest.getUsername());
+
         var user = userService.findUserByUsername(loginRequest.getUsername());
 
         if (!user.isActivated()) {
             throw new ActivationException("User is not activated");
         }
 
-        if (user.isAccountNonLocked()) {
+        if (!user.isAccountNonLocked()) {
             throw new LockedException("User account is locked");
         }
 

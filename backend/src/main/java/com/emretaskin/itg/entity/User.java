@@ -2,6 +2,7 @@ package com.emretaskin.itg.entity;
 
 import com.emretaskin.itg.constants.Constants;
 import com.emretaskin.itg.enums.UserRole;
+import com.emretaskin.itg.validation.EmailFormat;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -41,6 +42,7 @@ public class User implements UserDetails {
     private UserRole role;
 
     @Column(nullable = false)
+    @EmailFormat
     private String email;
 
     @Column(nullable = false)
@@ -54,6 +56,15 @@ public class User implements UserDetails {
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
     private List<CreditCard> creditCards = new ArrayList<>();
+
+    public User(String nameSurname, String username, String password, String email, String activationCode, UserRole role) {
+        this.nameSurname = nameSurname;
+        this.username = username;
+        this.password = password;
+        this.email = email;
+        this.activationCode = activationCode;
+        this.role = role;
+    }
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {

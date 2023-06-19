@@ -103,6 +103,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
+    @Transactional
     public void decreaseProductQuantity(Long productId, int quantity) {
         Product product = getProductById(productId);
         int currentQuantity = product.getQuantity();

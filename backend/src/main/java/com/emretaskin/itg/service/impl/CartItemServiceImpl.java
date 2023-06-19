@@ -3,7 +3,6 @@ package com.emretaskin.itg.service.impl;
 import com.emretaskin.itg.dto.request.CartItemRequest;
 import com.emretaskin.itg.dto.response.CartItemResponse;
 import com.emretaskin.itg.entity.CartItem;
-import com.emretaskin.itg.entity.OrderItem;
 import com.emretaskin.itg.entity.Product;
 import com.emretaskin.itg.entity.User;
 import com.emretaskin.itg.repository.CartItemRepository;
@@ -71,20 +70,23 @@ public class CartItemServiceImpl implements CartItemService {
                 .orElseThrow(() -> new EntityNotFoundException("Cart item not found with ID: " + cartItemId));
 
         cartItem.setQuantity(cartItemRequest.getQuantity());
+
+        cartItemRepository.save(cartItem);
     }
 
     @Override
+    @Transactional
     public void clearCartItemsByUserId(Long userId) {
         cartItemRepository.deleteByUserId(userId);
     }
 
     private List<CartItemResponse> mapToCartItemResponses(List<CartItem> cartItems) {
         return cartItems.stream()
-                .map(this::mapToCartItemResponse)
+                .map(this::convertToCartItemResponseWithTotalPrice)
                 .collect(Collectors.toList());
     }
 
-    private CartItemResponse mapToCartItemResponse(CartItem cartItem) {
+    private CartItemResponse convertToCartItemResponseWithTotalPrice(CartItem cartItem) {
         BigDecimal totalPrice = cartItem.getProduct().getPrice().multiply(BigDecimal.valueOf(cartItem.getQuantity()));
 
         return CartItemResponse.builder()

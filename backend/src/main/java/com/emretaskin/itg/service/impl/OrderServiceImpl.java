@@ -14,6 +14,7 @@ import com.emretaskin.itg.service.interfaces.OrderService;
 import com.emretaskin.itg.service.interfaces.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -29,11 +30,10 @@ public class OrderServiceImpl implements OrderService {
     private final OrderItemService orderItemService;
 
     @Override
+    @Transactional
     public Order placeOrder(Long userId, OrderRequest orderRequest) {
         User user = userService.getUserById(userId);
         LocalDateTime orderDate = LocalDateTime.now();
-
-        List<CartItem> cartItems = cartItemService.findCartItemsByUserId(userId);
 
         Order order = Order.builder()
                 .user(user)
@@ -42,6 +42,8 @@ public class OrderServiceImpl implements OrderService {
                 .build();
 
         orderRepository.save(order);
+
+        List<CartItem> cartItems = cartItemService.findCartItemsByUserId(userId);
 
         List<OrderItem> orderItems = cartItems.stream()
                 .map(cartItem -> new OrderItem(order, cartItem.getProduct(), cartItem.getQuantity()))
